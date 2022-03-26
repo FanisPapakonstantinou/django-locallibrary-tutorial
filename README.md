@@ -39,19 +39,29 @@ To get this project up and running locally on your computer:
 1. Open tab to `http://127.0.0.1:8000` to see the main site, with your new objects.
 
 ## Adding a book to the library
-1. While the server is running, open the link `http://127.0.0.1:8000/admin`
-![login](https://raw.githubusercontent.com/mdn/django-locallibrary-tutorial/master/catalog/static/images/login.png)
+1. While the server is running, open the link `http://127.0.0.1:8000/admin` to access the admin site.
+
+![login](https://github.com/FanisPapakonstantinou/django-locallibrary-tutorial/blob/master/catalog/static/images/login.png)
+
 2. Enter username and password (same as the superuser you created through django above)
 3. Add an example book with all required fields
 4. Open MySQL server, you should be able to see the tables created in the database.
-![tables](https://raw.githubusercontent.com/mdn/django-locallibrary-tutorial/master/catalog/static/images/sqlServer_django.png)
+
+![tables](https://github.com/FanisPapakonstantinou/django-locallibrary-tutorial/blob/master/catalog/static/images/sqlServer_django.png)
+
+
 5. Execute the followng SQL script to see the book that was just added:
    ```
    use my_database;
    select * from catalog_book;
    ```
    It will return the book you just added.
-![query](https://raw.githubusercontent.com/mdn/django-locallibrary-tutorial/master/catalog/static/images/mysql_server.png)
+   
+![query](https://github.com/FanisPapakonstantinou/django-locallibrary-tutorial/blob/master/catalog/static/images/mysql_server.png)
+
+
 6. Go to `http://127.0.0.1:8000/catalog/books/` to check the newely added book through the UI.
 
-![ui](https://raw.githubusercontent.com/mdn/django-locallibrary-tutorial/master/catalog/static/images/book.png)
+
+
+![ui](https://github.com/FanisPapakonstantinou/django-locallibrary-tutorial/blob/master/catalog/static/images/book.png)
