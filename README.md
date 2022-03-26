@@ -34,9 +34,7 @@ To get this project up and running locally on your computer:
    python3 manage.py createsuperuser # Create a superuser
    python3 manage.py runserver
    ```
-1. Open a browser to `http://127.0.0.1:8000/admin/` to open the admin site
-1. Create a few test objects of each type.
-1. Open tab to `http://127.0.0.1:8000` to see the main site, with your new objects.
+
 
 ## Adding a book to the library
 1. While the server is running, open the link `http://127.0.0.1:8000/admin` to access the admin site.
